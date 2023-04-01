@@ -17,7 +17,7 @@ Firmware for the specific panel was found here: http://www.buydisplay.com/defaul
 Use part of wolfmanjm source code: https://github.com/wolfmanjm/GSL1680
 
 
-## Changes by g0orx - John Melton
+## Changes by G0ORX - John Melton
 
 Added optional TwoWire parameter to begin function to allow user to specify which I2C bus to use (defaults to Wire).
 
