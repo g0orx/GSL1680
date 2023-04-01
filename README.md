@@ -1,14 +1,12 @@
 # GSL1680 Arduino driver
 
-**This project is not in active development since I don't have the hardware anymore, but if a bug is found, please consider opening an issue or a pull request**
-
-pin | function  | Arduino Uno
+pin | function  | Teensy 4.1 Using Wire2
 ----|-----------|------------
-1   | SCL       | A5
-2   | SDA       | A4
+1   | SCL       | 24
+2   | SDA       | 25
 3   | VDD (3v3) | 3v3
-4   | Wake      | 4
-5   | Int       | 2
+4   | Wake      | 26
+5   | Int       | 27
 6   | Gnd       | GND
 
 Warning : Firmware is really heavy so this library cannot be used in some Arduino boards
@@ -25,5 +23,5 @@ Added TwoWire parameter to begin function to allow user to specify which I2C bus
 
 Replaced gslX680firmware.h with latest version from buydisplay.com to support 800x480 touchscreen
 
-Note:  for T41-EP use Wire2 and set WAKE to pin 26 and INTRPT to pin 27
+Note:  for T41-EP use Wire2 (pins 24 and 25)
 
