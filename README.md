@@ -19,7 +19,7 @@ Use part of wolfmanjm source code: https://github.com/wolfmanjm/GSL1680
 
 ## Changes by g0orx - John Melton
 
-Added TwoWire parameter to begin function to allow user to specify which I2C bus to use (defaults to Wire).
+Added optional TwoWire parameter to begin function to allow user to specify which I2C bus to use (defaults to Wire).
 
 Replaced gslX680firmware.h with latest version from buydisplay.com to support 800x480 touchscreen and assigned the the firmware to FLASHMEM.
 
